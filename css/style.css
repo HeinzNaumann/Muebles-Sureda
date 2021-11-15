@@ -9088,7 +9088,7 @@ HEADER (top part of page)
 }
 
 .nav-transparent .navbar-toggler .icon-bar {
-  background-color: #fff;
+  background-color: #9a3820;
 }
 .header-style-1 .main-bar {
   border-bottom: 1px solid #efefef;
@@ -10011,6 +10011,10 @@ HEADER (top part of page)
   .is-fixed#header-part .navbar-toggler {
     margin: 15px 0;
   }
+
+  .nav-transparent .main-bar {
+    background-color: rgb(255 255 255);
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -10019,7 +10023,7 @@ HEADER (top part of page)
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
   .is-fixed .extra-nav {
     padding: 13px 0px;
   }
