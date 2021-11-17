@@ -1403,6 +1403,9 @@ h4 {
   margin-bottom: 15px;
 }
 
+h4.sx-tilte {
+  font-size: 20px;
+}
 h5 {
   font-family: "Helvetica", sans-serif;
   font-weight: 600;
@@ -2433,10 +2436,6 @@ ol.list-num-count.list-outline-none > li:before {
 .p-tb70 {
   padding-bottom: 70px;
   padding-top: 70px;
-}
-
-.p-tb80 {
-  padding-top: 80px;
 }
 
 .p-tb90 {
@@ -4055,7 +4054,7 @@ ol.list-num-count.list-outline-none > li:before {
 
 .sx-thum-bx,
 .sx-post-thum {
-  background-color: #1d1d1b;
+  background-color: #b1361a;
 }
 
 .sx-thum-bx img,
@@ -4334,8 +4333,8 @@ ol.list-num-count.list-outline-none > li:before {
 }
 
 .site-button-secondry {
-  background-color: #1d1d1b;
-  color: #fff;
+  background-color: #9a3820;
+  color: black;
 }
 
 .site-button-secondry:active,
@@ -5111,20 +5110,16 @@ btn-half {
 }
 
 .btn-half span {
-  color: #1d1d1b;
+  color: white;
   display: block;
   padding-left: 0%;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
   transform: scaleX(0.9);
   transform-origin: center center;
   transition: color 0.3s ease;
   position: relative;
   z-index: 1;
-}
-
-.btn-half.site-button span {
-  color: #1d1d1b;
 }
 
 .btn-half.site-button-secondry span {
@@ -8748,7 +8743,7 @@ HEADER (top part of page)
 
 .extra-nav .extra-cell {
   display: table-cell;
-  padding-left: 20px;
+
   vertical-align: middle;
 }
 
@@ -8818,8 +8813,9 @@ HEADER (top part of page)
 }
 
 .logo-header-inner img {
-  max-width: 140%;
+  max-width: 100%;
   max-height: 100%;
+  padding: 16px 0 20px 5px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -8843,7 +8839,7 @@ HEADER (top part of page)
   font-size: 36px;
   color: #1bbce8;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 50px;
   margin-left: 0;
   margin-right: 0;
   position: relative;
@@ -9273,7 +9269,6 @@ HEADER (top part of page)
   }
   .extra-nav .extra-cell {
     margin-left: 0px;
-    padding-left: 10px;
   }
 }
 
@@ -10123,7 +10118,7 @@ HEADER (top part of page)
 -------------------------------------*/
 
 .sx-bnr-inr {
-  height: 500px;
+  height: 300px;
   background-position: center center;
   display: table;
   width: 100%;
@@ -10137,6 +10132,7 @@ HEADER (top part of page)
 
 .sx-bnr-inr .container {
   display: table;
+  background-position: center center;
   height: 100%;
 }
 
@@ -10152,7 +10148,7 @@ HEADER (top part of page)
 
 .sx-bnr-inr-entry .banner-title-outer {
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .sx-bnr-inr-entry .banner-title-outer h2 {
@@ -10775,7 +10771,11 @@ HEADER (top part of page)
 }
 
 .sx-footer-bot-right {
-  float: right;
+  align-self: center;
+}
+
+.row.copyright {
+  justify-content: flex-end;
 }
 
 .sx-footer-bot-center {
@@ -11026,6 +11026,9 @@ button.scroltop span {
   color: #fff;
 }
 
+h4.sx-tilte a:hover {
+  color: white;
+}
 /*-------------------------------------
 	Section Content Part 
 -------------------------------------*/
@@ -13623,7 +13626,7 @@ Background Effects
   position: relative;
   overflow: hidden;
   width: 100%;
-  background: #1d1d1b;
+  background: #b1361a;
 }
 
 .image-hover-block *,
@@ -13701,6 +13704,7 @@ Background Effects
 
 .image-hover-block:before,
 .image-hover-block:after {
+  display: none;
   position: absolute;
   top: 20px;
   right: 20px;
