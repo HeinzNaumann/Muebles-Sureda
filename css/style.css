@@ -13623,6 +13623,7 @@ Background Effects
 	Hover Image Block
 ---------------------------*/
 .image-hover-block {
+  display: flex;
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -13646,10 +13647,10 @@ Background Effects
 }
 
 .image-hover-block .sx-info {
+  text-align: center;
   position: absolute;
-  left: 0;
-  bottom: 0;
-  padding: 15px 30px 15px 20px;
+  align-self: center;
+  padding: 15px 30px 15px 30px;
   width: 100%;
 }
 
