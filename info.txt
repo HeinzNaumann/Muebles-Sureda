@@ -1,10 +1,10 @@
-- Quitar numero en version movil
+
 
 - Hacer un rediseño de los apartados de carpinteria, distribucion y montaje
 
 - Rectficar en paginas nuevas el header y footer
 
-- redes sociales
+
 
 
 Miguel 
