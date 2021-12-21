@@ -9820,7 +9820,7 @@ HEADER (top part of page)
   border-bottom: 1px solid #eee;
 }
 .nav-transparent .main-bar {
-  background-color: rgb(255 255 255 / 80%);
+  background-color: white;
   position: absolute;
   width: 100%;
   left: 0px;
@@ -11477,7 +11477,8 @@ Background Effects
 }
 
 .bg-cover {
-  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
 }
 
 .bg-full-width {
@@ -14263,6 +14264,15 @@ Background Effects
     font-size: 50px;
     line-height: 50px;
     height: 46px;
+    display: none;
+  }
+
+  .figcaption-number {
+    display: none;
+  }
+
+  .number-block-one .figcaption:after {
+    background-color: white;
   }
 }
 
