@@ -1102,10 +1102,6 @@ Version: 1.0
   border-right-color: #fff;
 }
 
-.banner-title-name p {
-  margin: 0 auto;
-}
-
 .nav_m {
   width: 960px;
   margin: 0 auto;
@@ -6004,7 +6000,7 @@ btn-half {
   color: #9a3820;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .testimonial-1.no-bg-testimonial {
     margin: 0px;
     border: 1px solid #f0f0f0;
@@ -10118,7 +10114,7 @@ HEADER (top part of page)
 -------------------------------------*/
 
 .sx-bnr-inr {
-  height: 300px;
+  height: 400px;
   background-position: center center;
   display: table;
   width: 100%;
@@ -10139,7 +10135,6 @@ HEADER (top part of page)
 .sx-bnr-inr-entry {
   display: table-cell;
   vertical-align: bottom;
-  text-align: center;
   position: relative;
   z-index: 1;
   vertical-align: bottom;
@@ -10147,6 +10142,7 @@ HEADER (top part of page)
 }
 
 .sx-bnr-inr-entry .banner-title-outer {
+  text-align: left;
   position: relative;
   margin-bottom: 50px;
 }
@@ -10159,8 +10155,9 @@ HEADER (top part of page)
   letter-spacing: 0px;
 }
 .sx-bnr-inr-entry .banner-title-outer p {
+  text-align: left;
+  max-width: 500px;
   color: #1d1d1b;
-  max-width: 555px;
   width: 100%;
 }
 
@@ -10969,6 +10966,7 @@ button.scroltop span {
 }
 
 .section-full {
+  margin-top: 50px;
   position: relative;
 }
 /*-------------------------------------
@@ -15021,6 +15019,9 @@ Image Effect Two
 }
 
 @media only screen and (max-width: 768px) {
+  .sx-bnr-inr-entry .banner-title-outer {
+    padding-top: 137px;
+  }
   .mobile-page-padding {
     padding: 30px 0px;
   }
@@ -15028,7 +15029,7 @@ Image Effect Two
     padding-bottom: 0px;
   }
   .inner-page-padding {
-    padding: 30px 0px;
+    padding: 0px 0px;
   }
   .mobile-page-padding .row.team-item-four [class*="col-"]:nth-of-type(3) {
     margin-bottom: 0px !important;
@@ -15768,7 +15769,7 @@ large-title-block
 ----------------------------------*/
 
 .our-history .our-history-pic {
-  height: 400px;
+  height: 500px;
   margin-right: 20%;
   margin-bottom: 120px;
   position: relative;
@@ -15854,6 +15855,14 @@ large-title-block
   margin: 0px;
 }
 @media only screen and (max-width: 767px) {
+  .image-hover-block {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background: red;
+  }
+
   .project-carousel3 {
     padding: 0px;
   }
