@@ -1250,6 +1250,10 @@ summary {
   display: block;
 }
 
+li a.tel{
+  color:white;
+}
+
 address {
   font-style: italic;
 }

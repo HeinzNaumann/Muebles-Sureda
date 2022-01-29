@@ -33,8 +33,8 @@
     <link rel="stylesheet" type="text/css" href="css/loader.min.css">
     <!-- FLATICON STYLE SHEET -->
     <link rel="stylesheet" type="text/css" href="css/flaticon.min.css">
-    <!-- MAIN STYLE SHEET -->
-    <!-- MAIN STYLE SHEET -->
+    <link rel="stylesheet" href="./css/estilos-cookies.css">
+    <link rel="stylesheet" href="./css/estilos-cookies.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 
@@ -252,12 +252,18 @@
                             <div class="widget widget_address_outer">
                                 <h5 class="widget-title">Contáctanos</h5>
 
-                                <ul class="widget_address">
+                                <ul itemprop="address" itemtype="http://schema.org/PostalAddress"
+                                    class="widget_address">
                                     <li>C/ de n’Eduard A.Martel, 1 y 3
-                                        07500 Manacor</li>
-                                    <li>info@miguelsureda.com</li>
-                                    <li>+34 971 55 19 00</li>
-                                    <li>+34 971 55 28 25</li>
+                                        07500 Manacor. Mallorca, España</li>
+                                    <li><a class="tel" href="tel:+34971551900">
+                                            <span itemprop="telephone">+34 971-551-900</span>
+                                        </a>
+                                    </li>
+                                    <li><a class="tel" href="tel:+34971552825">
+                                            <span itemprop="telephone">+34 971-552-825</span>
+                                        </a>
+                                    </li>
                                 </ul>
 
                             </div>
@@ -333,7 +339,7 @@
             </div>
         </div>
     </div>
-    <!-- LOADING AREA  END ====== -->
+    <script src="js/aviso-cookies.js"></script>
 
     <!-- JAVASCRIPT  FILES ========================================= -->
     <script src="js/jquery-1.12.4.min.js"></script><!-- JQUERY.MIN JS -->
