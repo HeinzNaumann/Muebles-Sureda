@@ -15859,13 +15859,7 @@ large-title-block
   margin: 0px;
 }
 @media only screen and (max-width: 767px) {
-  .image-hover-block {
-    display: block;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    background: red;
-  }
+
 
   .project-carousel3 {
     padding: 0px;
