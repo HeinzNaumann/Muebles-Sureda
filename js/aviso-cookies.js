@@ -1,7 +1,7 @@
-const botonAceptarCookies = document.getElementById('btn-aceptar-cookies');
-const botonAceptarCookies2 = document.getElementById('btn-aceptar-cookies2');
-const avisoCookies = document.getElementById('aviso-cookies');
-const fondoAvisoCookies = document.getElementById('fondo-aviso-cookies');
+let botonAceptarCookies = document.getElementById('btn-aceptar-cookies');
+let botonAceptarCookies2 = document.getElementById('btn-aceptar-cookies2');
+let avisoCookies = document.getElementById('aviso-cookies');
+let fondoAvisoCookies = document.getElementById('fondo-aviso-cookies');
 
 dataLayer = [];
 
