@@ -13,22 +13,22 @@ if ( isset( $_POST['action'] ) ):
 	$message = filter_var( $_POST['message'], FILTER_SANITIZE_STRING );
 	
 
-    $to_email = "heinzydj@gmail.com";    // To email address
-    $to_name = "Mukesh Kumar";
+    $to_email = "contacto@miguelsureda.com";    // To email address
+    $to_name = "A la atención de Muebles Miguel Sureda";
 
-    $email_subject = 'You Have Received a Message From ' . $name . '.';
+    $email_subject = 'Has recibido un nuevo email de la web de Muebles Miguel Sureda' . $name . '.';
 
     if ( ! empty( $name ) ) {
         $email_subject = $name . '.';
     }
 
-    $email_body = "You have Received a message from: " . $name . " <br/>";
+    $email_body = "Has recibido un nuevo mensaje desde la web de Miguel Sureda : " . $name . " <br/>";
 	
-	$email_body .= "Phone: " . $phone . " <br/>";
+	$email_body .= "Asunto: " . $phone . " <br/>";
 
     $email_content = nl2br( $message ) . " <br/><br/>";
 
-    $email_reply = 	"You can contact " . $name . " via email, " . $from_email ;
+    $email_reply = 	"Puedes contactarlo " . $name . " via este email, " . $from_email ;
 
     $prepared_message = $email_body . $email_content . $email_reply;
 
@@ -53,12 +53,13 @@ if ( isset( $_POST['action'] ) ):
     if( $sent ) {
         echo json_encode(array(
             'success' => true,
-            'message' => "Message Sent Successfully!"
+            'message' => "¡Mensaje enviado Correctamente! En breve nos pondremos en contacto con usted."
         ));
     } else {
+
         echo json_encode(array(
                 'success' => false,
-                'message' => "Server Error:  mail method failed!"
+                'message' => "Server Error:  ¡Ups algo a fallado! Contáctenos más abajo por email o por télefono. "
             )
         );
     }
