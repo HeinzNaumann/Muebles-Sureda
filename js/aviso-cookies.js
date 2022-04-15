@@ -27,3 +27,5 @@ botonAceptarCookies2.addEventListener('click', () => {
 	fondoAvisoCookies.classList.remove('activo');
 	localStorage.setItem('cookies-aceptadas', false);
 })
+
+let actualYear = document.write(new Date().getFullYear())

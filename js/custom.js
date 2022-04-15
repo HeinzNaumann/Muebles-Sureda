@@ -926,7 +926,7 @@ All JavaScript fuctions Start
     var form = jQuery(this);
     /* sending message */
     jQuery.ajax({
-      url: "https://mms.webstudiomallorca.com/form-handler.php",
+      url: "https://miguelsureda.com/form-handler.php",
       data: form.serialize() + "&action=contactform",
       type: "POST",
       dataType: "JSON",
